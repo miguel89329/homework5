@@ -25,3 +25,13 @@ int Point :: getY() const
 {
     return y;
 }
+
+string Point :: getName() const
+{
+    return "point";
+}
+void Point :: print() const
+{
+    cout << getName() << endl;
+    cout << "posision:(" << getX() << "," <<  getY() << ")" << endl;
+}
